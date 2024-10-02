@@ -24,7 +24,7 @@
         "sqlite_file": "str"
     },
     "host_network": true,
-    "map": ["addon:config:rw","data:rw"],
+    "map": ["addon_config:rw","data:rw"],
     "uart": true,
     "webui": "http://[HOST]:[PORT:7070]/",
     "ports": {
