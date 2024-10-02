@@ -1,11 +1,7 @@
 configuration:
   config_file:
     name: "Location of evcc.yaml"
-    description: "The location of the /evcc.yaml" /n
-                  "could be" /n
-                  "- /homeassistant;" /n
-                  "- /config;" /n 
-                  "- /data2;" /n
+    description: The location of the /evcc.yaml could be - /homeassistant/*;" - /config; - /data2;" 
   sqlite_file:
     name: "Location of evcc.db"
     description: "The location of the /evcc.db could be /homeassistant; /config; /data; https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb"
