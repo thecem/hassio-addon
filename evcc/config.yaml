@@ -26,6 +26,13 @@ options:
 schema:
   config_file: str
   sqlite_file: str
+configuration:
+  config_file:
+    name: Location of evcc.yaml 
+    description: The location of the /evcc.yaml could be /homeassistant; /config; /data;
+  sqlite_file:
+    name: Location of evcc.yaml 
+    description: The location of the /evcc.yaml could be /homeassistant; /config; /data; https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb
 host_network: true
 map: 
   - type: homeassistant_config
