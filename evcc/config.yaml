@@ -30,6 +30,8 @@ host_network: true
 map: 
   - type: homeassistant_config
     read_only: False
+  - type: config
+    read_only: False
   - type: data
     read_only: False
 uart: true
