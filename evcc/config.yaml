@@ -36,7 +36,7 @@ map:
     read_only: False
   - type: config
     read_only: False
-    map: config_old
+    path: config_old
 uart: true
 webui: http://[HOST]:[PORT:7070]/
 ports:
