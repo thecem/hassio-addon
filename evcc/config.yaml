@@ -30,8 +30,6 @@ host_network: true
 map: 
   - type: homeassistant_config
     read_only: False
-  - type: config
-    read_only: False
   - type: addon_config
     read_only: False
   - type: data
