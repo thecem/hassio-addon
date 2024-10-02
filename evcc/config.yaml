@@ -1,5 +1,5 @@
 ---
-name: evcc
+name: evcc_test
 version: 0.130.12
 slug: evcc
 description: EV Charge Controller!
