@@ -30,15 +30,10 @@ host_network: true
 map: 
   - type: homeassistant_config
     read_only: False
-    path: /homeassistant
   - type: addon_config
     read_only: False
-    path: /addon_config
   - type: data
     read_only: False
-  - type: config
-    read_only: False
-    path: /config
 uart: true
 webui: http://[HOST]:[PORT:7070]/
 ports:
