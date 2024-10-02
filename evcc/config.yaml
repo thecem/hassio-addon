@@ -21,7 +21,7 @@ ingress_port: 7070
 init: false
 image: evcc/evcc
 options: 
-  config_file: /homeassistant/evcc_2.yaml
+  config_file: /homeassistant/evcc.yaml
   sqlite_file: /data/evcc.db
 schema:
   config_file: str
