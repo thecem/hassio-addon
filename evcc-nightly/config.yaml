@@ -28,6 +28,7 @@ options:
 schema:
   config_file: str
   sqlite_file: str
+  ssl: bool 
 host_network: true
 homeassistant_api: true
 map: 
