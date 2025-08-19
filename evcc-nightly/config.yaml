@@ -60,3 +60,5 @@ ports_description:
   8887/tcp: "OCPP web socket"
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
+environment:
+  EVOPT_URI: "http://localhost:7050"
