@@ -61,4 +61,4 @@ ports_description:
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
 environment:
-  EVOPT_URI: "{options.evopt_uri}"
+  EVOPT_URI: "http://localhost:7050"
