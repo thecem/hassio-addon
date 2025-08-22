@@ -30,7 +30,7 @@ schema:
   config_file: str
   sqlite_file: str
   ssl: bool
-  evopt_uri: str?
+  evopt_uri: url?
 host_network: true
 homeassistant_api: true
 map: 
@@ -61,4 +61,4 @@ ports_description:
   8899/udp: "Modbus UDP"
   9522/udp: "SMA Speedwire Multicast"
 environment:
-  EVOPT_URI: "http://localhost:7050"
+  - EVOPT_URI
