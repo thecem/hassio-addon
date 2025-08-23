@@ -12,3 +12,11 @@ configuration:
       If set to true, the web UI will be accessed using https:// instead of http://.
       Make sure that evcc or a proxy in front of it supports HTTPS, otherwise enabling this option will cause connection issues.
       Use false for unencrypted HTTP access.
+  EVOPT_URI:
+    name: "EVopt API Endpoint (EVOPT_URI)"
+    description: >
+      The endpoint URL for the EVopt API integration. 
+      This setting allows evcc to communicate with the EVopt service for advanced optimization, forecasting, and control features.
+      Enter the full URL including protocol (e.g., http://localhost:7050).
+      Leave empty if not using EVopt features.
+      Home Assistant Addon: https://github.com/thecem/hassio-evopt
