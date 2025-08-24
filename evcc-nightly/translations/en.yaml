@@ -1,10 +1,21 @@
 configuration:
+  name: "Configuration"
+  description: >
+    Configure the evcc add-on here.
+    Typically, you only need to use the default values (config file and database).
+    Advanced users may change the paths for custom setups or external integrations. [evcc on Home Assistant](https://docs.evcc.io/en/docs/installation/home-assistant).
   config_file:
     name: "Location of evcc.yaml (config_file)"
-    description: "The location of the evcc.yaml could be /homeassistant/* or /config/* or /data/*. Where /homeassistant/* maps to /config/* and /config/* maps to /addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/<slug>_evcc/* in Home Assistant OS. To access /data/* within the evcc container follow https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb."
+    description: >
+      The location of the evcc.yaml could be /homeassistant/* or /config/* or /data/*. 
+      Where /homeassistant/* maps to /config/* and /config/* maps to /addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/<slug>_evcc/* in Home Assistant OS. 
+      To access /data/* within the evcc container follow https://docs.evcc.io/en/docs/installation/home-assistant.
   sqlite_file:
     name: "Location of evcc.db (sqlite_file)"
-    description: "The location of the evcc.db could be /homeassistant/* or /config/* or /data/*. Where /homeassistant/* maps to /config/* and /config/* maps to /addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/<slug>_evcc/* in Home Assistant OS. To access /data/* within the evcc container follow https://github.com/evcc-io/hassio-addon/blob/main/README.md#how-to-find-and-copy-dataevccdb."
+    description: >
+      The location of the evcc.db could be /homeassistant/* or /config/* or /data/*. 
+      Where /homeassistant/* maps to /config/* and /config/* maps to /addon_configs/<slug>_evcc/* and /data/* maps to /mnt/data/supervisor/addons/data/<slug>_evcc/* in Home Assistant OS. 
+      To access /data/* within the evcc container follow https://docs.evcc.io/en/docs/installation/home-assistant.
   ssl:
     name: "Enable SSL for Web Interface (ssl)"
     description: >
