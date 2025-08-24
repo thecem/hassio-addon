@@ -1,9 +1,4 @@
 configuration:
-  name: "Configuration"
-  description: >
-    Configure the evcc add-on here.
-    Typically, you only need to use the default values (config file and database).
-    Advanced users may change the paths for custom setups or external integrations. [evcc Home Assistant Addon Manual](https://docs.evcc.io/en/docs/installation/home-assistant)
   config_file:
     name: "Location of evcc.yaml (config_file)"
     description: >
