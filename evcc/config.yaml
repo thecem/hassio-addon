@@ -21,12 +21,12 @@ ingress_port: 7070
 init: false
 watchdog: http://[HOST]:[PORT:7070]/
 image: evcc/evcc
-options: 
-  config_file: /config/evcc.yaml
-  sqlite_file: /data/evcc.db
+options:
+  SQLITE_FILE: /data/evcc.db
 schema:
-  config_file: str
-  sqlite_file: str
+  CONFIG: str
+  SQLITE_FILE: str
+  EVOPT_URI: url?
 host_network: true
 map: 
   - type: addon_config
