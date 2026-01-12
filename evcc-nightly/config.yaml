@@ -1,6 +1,6 @@
 ---
 name: evcc (nightly)
-version: nightly.20260112-5e9ad5e
+version: nightly.20260112-test1
 slug: evcc-nightly
 description: Nightly version of EV Charge Controller!
 url: https://github.com/evcc-io/evcc
@@ -20,7 +20,7 @@ ingress: true
 ingress_port: 7070
 init: false
 watchdog: http://[HOST]:[PORT:7070]
-image: evcc/evcc
+image: thecem/evcc:ha-test-20260112
 options:
   sqlite_file: /data/evcc.db
 schema:
