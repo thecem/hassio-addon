@@ -1,5 +1,5 @@
 ---
-name: evcc (nightly)
+name: evcc (nightly) (thecem)
 version: nightly.20260112-test10
 slug: evcc-nightly
 description: Nightly version of EV Charge Controller!
