@@ -20,7 +20,7 @@ ingress: true
 ingress_port: 7070
 init: false
 watchdog: http://[HOST]:[PORT:7070]
-image: thecem/evcc:ha-test-20260112
+image: thecem/evcc
 options:
   sqlite_file: /data/evcc.db
 schema:
