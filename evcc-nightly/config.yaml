@@ -31,6 +31,7 @@ schema:
   SEMP_BASE_URL: url?
 host_network: true
 homeassistant_api: true
+hassio_api: true
 map: 
   - type: addon_config
     read_only: False
